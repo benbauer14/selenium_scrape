@@ -9,6 +9,5 @@ articles = driver.find_element_by_css_selector("#articlecount a")
 
 articles.click()
 
-print(articles.text)
 
 driver.quit()
